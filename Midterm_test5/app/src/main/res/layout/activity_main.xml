@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name: 지용현"/>
+            <TextView
+                android:id="@+id/ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ID: 20192250"/>
+
+            <Button
+                android:id="@+id/CngBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHANGE"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="158dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/Img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/me" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자1 입력"/>
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자2 입력"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="7">
+
+        <Button
+            android:id="@+id/Num0"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="0"/>
+        <Button
+            android:id="@+id/Num1"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="1"/>
+        <Button
+            android:id="@+id/Num2"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="2"/>
+        <Button
+            android:id="@+id/Num3"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="3"/>
+
+
+        <Button
+            android:id="@+id/Num4"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/Num5"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="5"/>
+        <Button
+            android:id="@+id/Num6"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="6"/>
+        <Button
+            android:id="@+id/Num7"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="7"/>
+        <Button
+            android:id="@+id/Num8"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="8"/>
+        <Button
+            android:id="@+id/Num9"
+            android:layout_column="4"
+            android:layout_row="1"
+            android:text="9"/>
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:text="더하기"/>
+        <Button
+            android:id="@+id/Sub"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:text="빼기"/>
+        <Button
+            android:id="@+id/Mul"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:text="곱하기"/>
+        <Button
+            android:id="@+id/Div"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:text="나누기"/>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:text="계산결과: "/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104433704380",
+    "firebase_url": "https://teamteam-87980.firebaseio.com",
+    "project_id": "teamteam-87980",
+    "storage_bucket": "teamteam-87980.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104433704380:android:cf1db6854608aeb6295fb9",
+        "android_client_info": {
+          "package_name": "com.cookandroid.teamteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104433704380-ou7r9g6rbegusvtclpaqfrh1o60r1n6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.teamteam",
+            "certificate_hash": "51d99f756c7dba45d28cbd4d3fa05c928289b0cd"
+          }
+        },
+        {
+          "client_id": "104433704380-c6mmln0ut62d5o2r317fv1mjktr4po4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUtuTlGWLBQ-BEM98o5fqf6IP6owmdKmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104433704380-c6mmln0ut62d5o2r317fv1mjktr4po4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

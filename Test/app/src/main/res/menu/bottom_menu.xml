@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="채용정보"/>
+
+    <item
+        android:id="@+id/search_bar"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="맞춤검색"/>
+
+    <item
+        android:id="@+id/assistant"
+        android:enabled="true"
+        android:icon="@drawable/ic_assistant_black_24dp"
+        android:title="도우미"/>
+
+    <item
+        android:id="@+id/board"
+        android:enabled="true"
+        android:icon="@drawable/ic_description_black_24dp"
+        android:title="게시판"/>
+
+    <item
+        android:id="@+id/login_bar"
+        android:enabled="true"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:title="Login"/>
+</menu>
